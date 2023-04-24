@@ -567,3 +567,347 @@
 2023-04-24 13:46:14,896 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1963mS.
 2023-04-24 13:46:14,897 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
 2023-04-24 13:46:14,898 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:50:30,700 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:50:30,713 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:50:33,585 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,518x349,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:50:35,163 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:50:43,513 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 264528768 Bytes (677380096)
+2023-04-24 13:50:45,072 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 260128184 Bytes (677380096)
+2023-04-24 13:50:45,401 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 295779768 Bytes (677380096)
+2023-04-24 13:50:45,738 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 13:50:45,738 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 13:50:45,738 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 13:50:45,739 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 13:50:45,739 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 13:50:45,740 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 13:50:45,746 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:50:45,949 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 13:50:46,035 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 13:50:46,104 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 13:50:46,175 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 13:50:46,656 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 13:50:46,741 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 13:50:46,743 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 13:50:46,808 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 13:50:46,814 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 13:50:46,926 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 13:50:46,929 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 13:50:46,995 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 13:50:47,000 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 13:50:47,109 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 13:50:47,193 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 13:50:47,260 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 13:50:47,263 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 13:50:47,348 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 13:50:47,977 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 193mS.
+2023-04-24 13:50:47,978 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 13:50:48,349 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 13:50:49,735 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1757mS.
+2023-04-24 13:50:49,736 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-24 13:50:49,740 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:51:56,698 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,658 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,690 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,710 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,723 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,739 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,752 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,822 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,857 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,877 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:00,228 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:00,247 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:01,311 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:01,319 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:01,420 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:52:02,292 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:04,392 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 355782952 Bytes (704643072)
+2023-04-24 13:52:05,863 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 390908200 Bytes (704643072)
+2023-04-24 13:52:06,213 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 260591144 Bytes (704643072)
+2023-04-24 13:52:06,689 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 13:52:06,690 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 13:52:06,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 13:52:06,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 13:52:06,692 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 13:52:06,693 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 13:52:06,701 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:06,955 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 13:52:07,054 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 13:52:07,129 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 13:52:07,194 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 13:52:07,518 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 13:52:07,586 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 13:52:07,590 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 13:52:07,661 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 13:52:07,670 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 13:52:07,774 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 13:52:07,776 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 13:52:07,832 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 13:52:07,838 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 13:52:07,901 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 13:52:08,020 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 13:52:08,087 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 13:52:08,090 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 13:52:08,180 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 13:52:08,887 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 265mS.
+2023-04-24 13:52:08,889 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 13:52:09,349 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 13:52:10,737 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1848mS.
+2023-04-24 13:52:10,738 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:52:10,740 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:59:17,163 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:59:17,176 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:59:17,323 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:04:45,034 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 14:04:46,121 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 14:04:46,131 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 14:07:16,961 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,518x349,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:07:31,187 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 332168720 Bytes (704643072)
+2023-04-24 14:07:32,569 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 368342976 Bytes (704643072)
+2023-04-24 14:07:32,916 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 404520896 Bytes (704643072)
+2023-04-24 14:07:33,250 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 14:07:33,252 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:07:33,252 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:07:33,545 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:07:33,672 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:07:33,749 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:07:33,832 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:07:34,242 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:07:34,263 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:07:34,650 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:07:34,654 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:07:34,717 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:07:34,727 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:07:34,841 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:07:34,846 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:07:34,903 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:07:34,910 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:07:34,970 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:07:35,012 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:07:35,012 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:07:35,020 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:07:35,088 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:07:35,090 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:07:35,178 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:07:36,076 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 465mS.
+2023-04-24 14:07:36,078 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:07:36,586 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:07:37,924 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1846mS.
+2023-04-24 14:07:37,926 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:07:37,927 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:10:55,586 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:11:20,919 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:15:20,321 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:15:28,104 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:15:33,000 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 432111912 Bytes (704643072)
+2023-04-24 14:15:34,199 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 468812072 Bytes (704643072)
+2023-04-24 14:15:34,542 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 503937320 Bytes (704643072)
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:15:34,868 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:15:35,071 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:15:35,133 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:15:35,184 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:15:35,242 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:15:35,631 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:15:35,645 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:15:35,736 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:15:35,741 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:15:35,817 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:15:35,828 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:15:35,918 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:15:35,922 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:15:35,976 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:15:35,982 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:15:36,045 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:15:36,084 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:15:36,084 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:15:36,088 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:15:36,148 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:15:36,152 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:15:36,250 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:15:37,244 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 465mS.
+2023-04-24 14:15:37,247 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:15:37,545 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:15:39,086 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1839mS.
+2023-04-24 14:15:39,087 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:15:39,088 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:18:10,083 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:11,158 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:14,362 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:21,415 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:24,323 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:28,808 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:35,752 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 486839728 Bytes (724566016)
+2023-04-24 14:18:37,379 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 523539888 Bytes (724566016)
+2023-04-24 14:18:37,715 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 601660848 Bytes (724566016)
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:18:38,094 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:18:38,094 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:18:38,303 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:18:38,371 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:18:38,421 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:18:38,480 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:18:38,868 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:18:38,879 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:18:38,945 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:18:38,947 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:18:39,009 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:18:39,018 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:18:39,106 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:18:39,109 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:18:39,168 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:18:39,175 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:18:39,238 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:18:39,280 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:18:39,280 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:18:39,286 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:18:39,346 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:18:39,348 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:18:39,440 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:18:40,292 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 257mS.
+2023-04-24 14:18:40,294 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:18:40,617 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:18:42,025 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1731mS.
+2023-04-24 14:18:42,026 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:18:42,028 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:30:27,859 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:36:20,217 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 514527640 Bytes (766509056)
+2023-04-24 14:36:24,886 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 554895768 Bytes (766509056)
+2023-04-24 14:36:28,610 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 316032512 Bytes (766509056)
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:36:28,917 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:36:28,917 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:36:28,917 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:36:29,176 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:36:29,263 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:36:29,316 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:36:29,385 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:36:29,723 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:36:29,735 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:36:30,013 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:36:30,016 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:36:30,071 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:36:30,079 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:36:30,183 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:36:30,185 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:36:30,245 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:36:30,251 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:36:30,314 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:36:30,353 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:36:30,353 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:36:30,359 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:36:30,428 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:36:30,432 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:36:30,522 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:36:31,484 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 444mS.
+2023-04-24 14:36:31,486 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:36:31,771 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:36:33,273 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1787mS.
+2023-04-24 14:36:33,274 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:36:33,275 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:51:03,023 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:51:03,239 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2023-04-24 14:51:03,240 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Component.java:2101)
+2023-04-24 14:51:03,241 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Component.java:2075)
+2023-04-24 14:51:03,241 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(JPopupMenu.java:940)
+2023-04-24 14:51:03,241 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(BasicComboPopup.java:235)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(BasicComboPopup.java:1218)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(BasicComboPopup.java:897)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(BasicTableUI.java:967)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1129)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1057)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-04-24 14:51:03,249 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-04-24 14:51:03,249 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-04-24 14:51:07,632 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x127,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:51:08,838 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:51:14,242 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 337510608 Bytes (766509056)
+2023-04-24 14:51:16,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 373684944 Bytes (766509056)
+2023-04-24 14:51:16,544 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409862864 Bytes (766509056)
+2023-04-24 14:51:16,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:51:16,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:51:16,934 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:51:17,256 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:51:17,361 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:51:17,416 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:51:17,491 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:51:17,884 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:51:17,896 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:51:18,162 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:51:18,166 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:51:18,238 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:51:18,245 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:51:18,383 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:51:18,387 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:51:18,462 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:51:18,468 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:51:18,536 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:51:18,577 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:51:18,577 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:51:18,581 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:51:18,655 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:51:18,658 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:51:18,748 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:51:19,827 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 448mS.
+2023-04-24 14:51:19,830 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:51:20,140 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:51:21,954 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2124mS.
+2023-04-24 14:51:21,955 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:51:21,957 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
