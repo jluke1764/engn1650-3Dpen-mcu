@@ -14,3 +14,16 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/naona
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-04-23 12:50:53.859
 !MESSAGE Indexed 'Pen' (26 sources, 120 headers) in 5.2 sec: 12,751 declarations; 59,733 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.24%)
+!SESSION 2023-04-24 13:07:41.605 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_TW
+Framework arguments:  -keyring /Users/naonao/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/naonao/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-24 13:07:54.716
+!MESSAGE Log4j2 initialized with config file /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-24 13:08:03.649
+!MESSAGE Started RMI Server, listening on port 41337
