@@ -1,0 +1,913 @@
+2023-04-24 13:07:55,200 [INFO] Activator:176 - 
+
+
+2023-04-24 13:07:55,206 [INFO] Activator:177 - !SESSION log4j initialized
+2023-04-24 13:07:59,968 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-04-24 13:08:00,725 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-04-24 13:08:02,947 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-04-24 13:08:24,437 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-24 13:08:24,438 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-24 13:08:24,439 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-04-24 13:08:24,480 [INFO] McuFinderGlobals:53 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-04-24 13:08:26,735 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600
+2023-04-24 13:08:26,760 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//mcu/
+2023-04-24 13:08:26,761 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//plugins/boardmanager/
+2023-04-24 13:08:26,765 [WARN] ApiDb:259 - Overriding images path with different value:  => /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//plugins/mcufinder/images/
+2023-04-24 13:08:26,787 [INFO] ApiDb:250 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/
+2023-04-24 13:08:26,789 [INFO] DbMcusAds:125 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/
+2023-04-24 13:08:26,794 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-04-24 13:08:26,948 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-04-24 13:08:27,031 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//mcu/
+2023-04-24 13:08:27,032 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//plugins/boardmanager/
+2023-04-24 13:08:27,032 [INFO] ApiDb:261 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//plugins/mcufinder/images/
+2023-04-24 13:08:27,032 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,032 [INFO] ApiDb:250 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/
+2023-04-24 13:08:27,033 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,033 [INFO] DbMcusAds:125 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/
+2023-04-24 13:08:27,033 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,033 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,033 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-04-24 13:08:27,134 [INFO] MainPanel:253 - HeapMemory: 268435456
+2023-04-24 13:08:27,283 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//mcu/
+2023-04-24 13:08:27,284 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//plugins/boardmanager/
+2023-04-24 13:08:27,284 [INFO] ApiDb:261 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db//plugins/mcufinder/images/
+2023-04-24 13:08:27,285 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,285 [INFO] ApiDb:250 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/
+2023-04-24 13:08:27,285 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,285 [INFO] DbMcusAds:125 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/
+2023-04-24 13:08:27,285 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,285 [WARN] DbFile:41 - Overriding database path with different value: /Users/naonao/.stmcufinder/plugins/mcufinder/ => /Users/naonao/.stmcufinder/plugins/mcufinder
+2023-04-24 13:08:27,285 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/naonao/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-04-24 13:08:27,307 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600
+2023-04-24 13:08:27,309 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2023-04-24 13:08:27,311 [INFO] PluginManage:310 - Check plugin analytics
+2023-04-24 13:08:27,555 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2023-04-24 13:08:27,555 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2023-04-24 13:08:27,556 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: 
+2023-04-24 13:08:27,565 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-04-24 13:08:27,566 [INFO] PluginManage:310 - Check plugin cadmodel
+2023-04-24 13:08:28,721 [INFO] CADModel:105 - Init CAD model plugin
+2023-04-24 13:08:28,721 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-04-24 13:08:28,721 [INFO] PluginManage:310 - Check plugin clock
+2023-04-24 13:08:28,735 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2023-04-24 13:08:28,735 [INFO] PluginManage:310 - Check plugin ddr
+2023-04-24 13:08:28,740 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-04-24 13:08:28,740 [INFO] PluginManage:310 - Check plugin filemanager
+2023-04-24 13:08:28,931 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-04-24 13:08:28,931 [INFO] PluginManage:310 - Check plugin ipmanager
+2023-04-24 13:08:28,941 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-04-24 13:08:28,941 [INFO] PluginManage:310 - Check plugin lpbam
+2023-04-24 13:08:28,957 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-04-24 13:08:28,957 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2023-04-24 13:08:28,969 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-04-24 13:08:28,969 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2023-04-24 13:08:29,096 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2023-04-24 13:08:29,304 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-04-24 13:08:29,305 [INFO] PluginManage:310 - Check plugin power
+2023-04-24 13:08:29,318 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2023-04-24 13:08:29,318 [INFO] PluginManage:310 - Check plugin projectmanager
+2023-04-24 13:08:29,338 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-04-24 13:08:29,338 [INFO] PluginManage:310 - Check plugin thirdparty
+2023-04-24 13:08:29,503 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-04-24 13:08:29,502 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2023-04-24 13:08:29,503 [INFO] PluginManage:310 - Check plugin tools
+2023-04-24 13:08:29,503 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2023-04-24 13:08:29,505 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-04-24 13:08:29,506 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2023-04-24 13:08:29,507 [INFO] PluginManage:310 - Check plugin tutovideos
+2023-04-24 13:08:29,838 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-04-24 13:08:29,838 [INFO] PluginManage:310 - Check plugin updater
+2023-04-24 13:08:29,859 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2023-04-24 13:08:29,859 [INFO] PluginManage:283 - PluginManage : Loaded plugins [15]
+2023-04-24 13:08:30,149 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-24 13:08:30,243 [INFO] CADModel:165 - CPN selected for project level
+2023-04-24 13:08:30,244 [INFO] CADModel:114 - Register for checkConnection events
+2023-04-24 13:08:30,268 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,269 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2023-04-24 13:08:30,281 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,281 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2023-04-24 13:08:30,290 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,291 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2023-04-24 13:08:30,329 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,329 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2023-04-24 13:08:30,333 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,334 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2023-04-24 13:08:30,336 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,336 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2023-04-24 13:08:30,340 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,340 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2023-04-24 13:08:30,344 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,344 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2023-04-24 13:08:30,348 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,348 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2023-04-24 13:08:30,351 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,351 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2023-04-24 13:08:30,353 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,354 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2023-04-24 13:08:30,356 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,357 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2023-04-24 13:08:30,361 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,361 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2023-04-24 13:08:30,364 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,364 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2023-04-24 13:08:30,367 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,368 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2023-04-24 13:08:30,371 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,372 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2023-04-24 13:08:30,375 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,375 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2023-04-24 13:08:30,378 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,378 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2023-04-24 13:08:30,381 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,381 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2023-04-24 13:08:30,388 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,388 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2023-04-24 13:08:30,391 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,391 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2023-04-24 13:08:30,394 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,394 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2023-04-24 13:08:30,400 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,400 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2023-04-24 13:08:30,409 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,409 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2023-04-24 13:08:30,418 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,422 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2023-04-24 13:08:30,427 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,428 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2023-04-24 13:08:30,432 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,432 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2023-04-24 13:08:30,434 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,434 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2023-04-24 13:08:30,439 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,440 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2023-04-24 13:08:30,442 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,442 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2023-04-24 13:08:30,452 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,453 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2023-04-24 13:08:30,460 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,460 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2023-04-24 13:08:30,467 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,467 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2023-04-24 13:08:30,471 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,471 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2023-04-24 13:08:30,473 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,473 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2023-04-24 13:08:30,477 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,477 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2023-04-24 13:08:30,481 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,481 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2023-04-24 13:08:30,484 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,485 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2023-04-24 13:08:30,489 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,489 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2023-04-24 13:08:30,493 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,493 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2023-04-24 13:08:30,498 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,498 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2023-04-24 13:08:30,503 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,503 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2023-04-24 13:08:30,507 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:30,507 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2023-04-24 13:08:30,624 [INFO] CADModel:165 - CPN selected for project level
+2023-04-24 13:08:30,624 [INFO] CADModel:114 - Register for checkConnection events
+2023-04-24 13:08:30,624 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:30,624 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-04-24 13:08:30,831 [INFO] CADModel:165 - CPN selected for project level
+2023-04-24 13:08:30,832 [INFO] CADModel:114 - Register for checkConnection events
+2023-04-24 13:08:30,832 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:30,832 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-04-24 13:08:30,839 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:30,975 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:30,986 [INFO] DbMcusAds:53 - JSON generation date=Tue Mar 07 03:50:55 EST 2023 (1678179055335)
+2023-04-24 13:08:30,987 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:31,077 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-04-24 13:08:31,227 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:31,231 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:31,231 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:31,231 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-04-24 13:08:31,232 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-04-24 13:08:31,272 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-04-24 13:08:31,275 [INFO] Updater:1056 - Updater Version found : 6.8.0
+2023-04-24 13:08:31,305 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600
+2023-04-24 13:08:31,632 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-24 13:08:31,633 [INFO] MainUpdater:283 - Updater Check For Update Now.
+2023-04-24 13:08:31,633 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-24 13:08:31,803 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-04-24 13:08:31,844 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-24 13:08:31,846 [INFO] MainUpdater:2854 - connection check result : 10
+2023-04-24 13:08:32,171 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-04-24 13:08:32,172 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-24 13:08:32,173 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-04-24 13:08:32,681 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-04-24 13:08:32,711 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-04-24 13:08:32,736 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-04-24 13:08:32,741 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.6.0
+2023-04-24 13:08:32,767 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-04-24 13:08:32,777 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-04-24 13:08:32,789 [WARN] PackLoader:240 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-04-24 13:08:32,801 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-04-24 13:08:32,829 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,830 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,835 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-04-24 13:08:32,837 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,837 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,838 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,838 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,839 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-04-24 13:08:32,850 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-04-24 13:08:32,861 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-04-24 13:08:32,873 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-04-24 13:08:32,894 [WARN] PackLoader:240 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-04-24 13:08:32,901 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-04-24 13:08:32,907 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-04-24 13:08:32,912 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-04-24 13:08:32,917 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2023-04-24 13:08:32,922 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-04-24 13:08:32,928 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-04-24 13:08:32,934 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-04-24 13:08:32,957 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-04-24 13:08:32,986 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-04-24 13:08:33,004 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-04-24 13:08:33,017 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-04-24 13:08:33,037 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-04-24 13:08:33,072 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-04-24 13:08:33,077 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-04-24 13:08:33,095 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-04-24 13:08:33,109 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-04-24 13:08:33,116 [WARN] PackLoader:240 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-04-24 13:08:33,119 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-04-24 13:08:33,151 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2023-04-24 13:08:33,371 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-04-24 13:08:33,420 [WARN] PackLoader:240 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-04-24 13:08:33,480 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-04-24 13:08:33,482 [INFO] ThirdParty:978 - Integrity check success = true
+2023-04-24 13:08:33,482 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2023-04-24 13:08:33,482 [INFO] IntegrityCheckThread:103 - End integrity checks thread
+2023-04-24 13:08:33,486 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-04-24 13:08:33,487 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-04-24 13:08:33,492 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-24 13:08:33,500 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 233838936 Bytes (274726912)
+2023-04-24 13:08:33,502 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-04-24 13:08:33,502 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-04-24 13:08:33,503 [INFO] OpenFileManager:308 - Change cursor
+2023-04-24 13:08:33,553 [INFO] Mcu:1937 - Initializing MCU STM32L496Z(E-G)Tx STM32L496ZGTx STM32L496ZGT3
+2023-04-24 13:08:37,991 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-04-24 13:08:39,149 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-04-24 13:08:39,149 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-04-24 13:08:39,149 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-04-24 13:08:39,150 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-04-24 13:08:39,150 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-04-24 13:08:39,180 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,180 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,181 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,181 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,181 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,181 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,181 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,182 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,183 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-04-24 13:08:39,456 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-04-24 13:08:39,828 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-04-24 13:08:39,854 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (48MHZClocksFreq_Value)
+2023-04-24 13:08:39,854 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (ADC12outputFreq_Value)
+2023-04-24 13:08:39,855 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (ADC34outputFreq_Value)
+2023-04-24 13:08:39,855 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (DFSDM2Freq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (DFSDMAudioFreq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (EthernetFreq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FMPI2C1Freq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2S1Freq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2S2Freq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2SClocksFreq_Value)
+2023-04-24 13:08:39,856 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (LPTimerFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (MCO2PinFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (MCOFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLCLKFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLI2SPCLKFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLI2SQCLKFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLI2SQoutputFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLI2SRCLKFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLI2SoutputFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMCOFreq_Value)
+2023-04-24 13:08:39,857 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMUL)
+2023-04-24 13:08:39,858 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLQCLKFreq_Value)
+2023-04-24 13:08:39,858 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLRoutputFreq_Value)
+2023-04-24 13:08:39,859 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PRESCALERUSB)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (RTCHSEDivFreq_Value)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SAI1AFreq_Value)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SAI1BFreq_Value)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SDIOFreq_Value)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SYSCLKSourceVirtual)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM15Freq_Value)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM16Freq_Value)
+2023-04-24 13:08:39,860 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM17Freq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM1Freq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM20Freq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM2Freq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM3Freq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM8Freq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOI2SInputFreq_Value)
+2023-04-24 13:08:39,861 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOI2SOutputFreq_Value)
+2023-04-24 13:08:39,862 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOInputMFreq_Value)
+2023-04-24 13:08:39,862 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOOutput2Freq_Value)
+2023-04-24 13:08:39,863 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2S)
+2023-04-24 13:08:40,492 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 276596296 Bytes (430964736)
+2023-04-24 13:08:40,963 [INFO] ApiDb:581 - Connected to CubeFinder SQLite database (/Users/naonao/.stmcufinder/plugins/mcufinder/mcu/cube-finder-db.db)
+2023-04-24 13:08:41,096 [INFO] ApiDb:668 - CubeFinder database Data Model version=2.1
+2023-04-24 13:08:41,096 [INFO] ApiDb:669 - CubeFinder database Configuration version=3.0.35
+2023-04-24 13:08:41,096 [INFO] ApiDb:670 - CubeFinder database generation date=2023-03-10 (1678456172)
+2023-04-24 13:08:41,097 [INFO] ApiDb:671 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V3.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.5.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-04-24 13:08:43,623 [INFO] ApiDb:240 - Found 297 in-development CPN: [B-G473E-ZEST1S, B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, NUCLEO-H503RB, NUCLEO-H563ZI, NUCLEO-U545RE-Q, NUCLEO-U5A5ZJ-Q, NUCLEO-WBA52CG, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32H503CBT6, STM32H503CBU6, STM32H503EBY6TR, STM32H503KBU6, STM32H503RBT6, STM32H562AGI6, STM32H562AII6, STM32H562IGK6, STM32H562IGT6, STM32H562IIK6, STM32H562IIT6, STM32H562RGT6, STM32H562RGV6, STM32H562RIT6, STM32H562RIV6, STM32H562VGT6, STM32H562VIT6, STM32H562ZGT6, STM32H562ZIT6, STM32H563AGI6, STM32H563AII3Q, STM32H563AII6, STM32H563IGK6, STM32H563IGT6, STM32H563IIK3Q, STM32H563IIK6, STM32H563IIT3Q, STM32H563IIT6, STM32H563MIY3QTR, STM32H563RGT6, STM32H563RGV6, STM32H563RIT6, STM32H563RIV6, STM32H563VGT6, STM32H563VIT3Q, STM32H563VIT6, STM32H563ZGT6, STM32H563ZIT3Q, STM32H563ZIT6, STM32H573AII3Q, STM32H573AII6, STM32H573I-DK, STM32H573IIK3Q, STM32H573IIK6, STM32H573IIT3Q, STM32H573IIT6, STM32H573MIY3QTR, STM32H573RIT6, STM32H573RIV6, STM32H573VIT3Q, STM32H573VIT6, STM32H573ZIT3Q, STM32H573ZIT6, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U535CBT6, STM32U535CBT6Q, STM32U535CBU6, STM32U535CBU6Q, STM32U535CCT6, STM32U535CCT6Q, STM32U535CCU6, STM32U535CCU6Q, STM32U535CET6, STM32U535CET6Q, STM32U535CEU6, STM32U535CEU6Q, STM32U535JEY6QTR, STM32U535NCY6QTR, STM32U535NEY6QTR, STM32U535RBI6, STM32U535RBI6Q, STM32U535RBT6, STM32U535RBT6Q, STM32U535RCI6, STM32U535RCI6Q, STM32U535RCT6, STM32U535RCT6Q, STM32U535REI6, STM32U535REI6Q, STM32U535RET6, STM32U535RET6Q, STM32U535VCI6, STM32U535VCI6Q, STM32U535VCT6, STM32U535VCT6Q, STM32U535VEI6, STM32U535VEI6Q, STM32U535VET6, STM32U535VET6Q, STM32U545CET6, STM32U545CET6Q, STM32U545CEU6, STM32U545CEU6Q, STM32U545JEY6QTR, STM32U545NEY6QTR, STM32U545REI6, STM32U545REI6Q, STM32U545RET6, STM32U545RET6Q, STM32U545VEI6, STM32U545VEI6Q, STM32U545VET6, STM32U545VET6Q, STM32U595AIH6, STM32U595AIH6Q, STM32U595AJH6, STM32U595AJH6Q, STM32U595QII6, STM32U595QII6Q, STM32U595QJI6, STM32U595QJI6Q, STM32U595RIT6, STM32U595RIT6Q, STM32U595RJT6, STM32U595RJT6Q, STM32U595VIT6, STM32U595VIT6Q, STM32U595VJT6, STM32U595VJT6Q, STM32U595ZIT6, STM32U595ZIT6Q, STM32U595ZIY6QTR, STM32U595ZJT6, STM32U595ZJT6Q, STM32U595ZJY6QTR, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U599VIT6Q, STM32U599VJT6, STM32U599VJT6Q, STM32U599ZIT6Q, STM32U599ZIY6QTR, STM32U599ZJT6Q, STM32U599ZJY6QTR, STM32U5A5AJH6, STM32U5A5AJH6Q, STM32U5A5QJI6, STM32U5A5QJI6Q, STM32U5A5RJT6, STM32U5A5RJT6Q, STM32U5A5VJT6, STM32U5A5VJT6Q, STM32U5A5ZJT6, STM32U5A5ZJT6Q, STM32U5A5ZJY6QTR, STM32U5A9BJY6QTR, STM32U5A9J-DK, STM32U5A9NJH6Q, STM32U5A9VJT6Q, STM32U5A9ZJT6Q, STM32U5A9ZJY6QTR, STM32WB1MMCH6, STM32WBA52CEU6, STM32WBA52CEU6T, STM32WBA52CGU6, STM32WBA52CGU6T, STM32WL5MOCH6, STM32WL5MOCH6TR]
+2023-04-24 13:08:43,628 [INFO] DbMcus:216 - Found 3775 MCUs, 3775 are supported
+2023-04-24 13:08:43,632 [INFO] ApiDb:423 - Load user favorites file /Users/naonao/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-04-24 13:08:43,632 [INFO] ApiDb:427 - User favorites MCUs=[]
+2023-04-24 13:08:43,633 [INFO] DbMcus:222 - Set 0 / 0 favorites MCUs
+2023-04-24 13:08:44,148 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-04-24 13:08:44,149 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-04-24 13:08:44,149 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-04-24 13:08:44,150 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-04-24 13:08:44,151 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-04-24 13:08:44,152 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-04-24 13:08:45,137 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-04-24 13:08:45,139 [INFO] PinOutPanel:1499 - setPackage(STM32L496ZGTx,LQFP144)
+2023-04-24 13:08:46,320 [INFO] UtilMem:75 - Before build in PCC Used Memory: 363328440 Bytes (457179136)
+2023-04-24 13:08:47,564 [INFO] UtilMem:75 - After build in PCC Used Memory: 370655840 Bytes (482344960)
+2023-04-24 13:08:47,628 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,628 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,629 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,629 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,629 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,630 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,630 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,630 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,630 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,631 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,631 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,631 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,632 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,632 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,632 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,632 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,633 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,633 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,633 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,633 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,634 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,634 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,634 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,635 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,635 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,636 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,636 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,637 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,637 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,637 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,638 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,638 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,638 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,639 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,639 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,639 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,640 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,640 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,641 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,641 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,641 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,646 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,646 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,654 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,655 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,655 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,656 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,656 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,657 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,657 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:47,658 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-04-24 13:08:48,047 [INFO] CADModel:165 - CPN selected for project levelSTM32L496ZGT3
+2023-04-24 13:08:48,048 [INFO] CADModel:114 - Register for checkConnection events
+2023-04-24 13:08:48,092 [INFO] OpenFileManager:328 - Restore cursor
+2023-04-24 13:21:40,892 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x234,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:27:29,160 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2, USB_OTG_FS]
+2023-04-24 13:44:20,125 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2, USB_OTG_FS]
+2023-04-24 13:44:27,153 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:44:27,184 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:44:37,415 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:44:37,469 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:44:37,481 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:44:46,814 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 532752456 Bytes (605028352)
+2023-04-24 13:44:48,793 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 243726440 Bytes (605028352)
+2023-04-24 13:44:49,155 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 277805160 Bytes (605028352)
+2023-04-24 13:44:49,934 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 13:44:49,934 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 13:44:49,934 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 13:44:49,934 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 13:44:49,935 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 13:44:49,937 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 13:44:49,965 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:44:50,444 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 13:44:51,029 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 13:44:51,211 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 13:44:51,342 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 13:44:51,796 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 13:44:51,925 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 13:44:51,929 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 13:44:52,098 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 13:44:52,110 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 13:44:52,275 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 13:44:52,282 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 13:44:52,392 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 13:44:52,399 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 13:44:52,496 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 13:44:52,570 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 13:44:52,667 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 13:44:52,671 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 13:44:52,815 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 13:44:53,877 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 418mS.
+2023-04-24 13:44:53,903 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 13:44:54,449 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 13:44:54,477 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-04-24 13:44:54,585 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-04-24 13:44:54,901 [INFO] ApiDbMcu:507 - Load IP Config File for TOUCHSENSING
+2023-04-24 13:44:54,948 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-04-24 13:44:54,970 [INFO] ApiDbMcu:507 - Load IP Config File for USB_HOST
+2023-04-24 13:44:56,126 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-04-24 13:44:57,003 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 3098mS.
+2023-04-24 13:44:57,004 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-24 13:44:57,006 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:45:52,414 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:45:57,108 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,284 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,321 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,378 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,450 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,488 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,503 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,527 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,539 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,986 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:00,998 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:07,474 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 405004016 Bytes (638582784)
+2023-04-24 13:46:09,367 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 441536432 Bytes (638582784)
+2023-04-24 13:46:09,707 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 477289496 Bytes (638582784)
+2023-04-24 13:46:10,125 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 13:46:10,125 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 13:46:10,125 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 13:46:10,125 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 13:46:10,126 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 13:46:10,127 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 13:46:10,136 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:46:10,352 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 13:46:10,455 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 13:46:10,573 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 13:46:10,733 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 13:46:11,196 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 13:46:11,300 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 13:46:11,304 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 13:46:11,461 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 13:46:11,469 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 13:46:11,600 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 13:46:11,603 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 13:46:11,689 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 13:46:11,696 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 13:46:11,868 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 13:46:11,936 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 13:46:12,022 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 13:46:12,026 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 13:46:12,167 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 13:46:12,931 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 311mS.
+2023-04-24 13:46:12,933 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 13:46:13,395 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 13:46:14,896 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1963mS.
+2023-04-24 13:46:14,897 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-24 13:46:14,898 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:50:30,700 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:50:30,713 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:50:33,585 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,518x349,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:50:35,163 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:50:43,513 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 264528768 Bytes (677380096)
+2023-04-24 13:50:45,072 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 260128184 Bytes (677380096)
+2023-04-24 13:50:45,401 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 295779768 Bytes (677380096)
+2023-04-24 13:50:45,738 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 13:50:45,738 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 13:50:45,738 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 13:50:45,739 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 13:50:45,739 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 13:50:45,740 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 13:50:45,746 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:50:45,949 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 13:50:46,035 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 13:50:46,104 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 13:50:46,175 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 13:50:46,656 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 13:50:46,741 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 13:50:46,743 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 13:50:46,808 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 13:50:46,814 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 13:50:46,926 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 13:50:46,929 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 13:50:46,995 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 13:50:47,000 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 13:50:47,109 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 13:50:47,193 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 13:50:47,260 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 13:50:47,263 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 13:50:47,348 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 13:50:47,977 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 193mS.
+2023-04-24 13:50:47,978 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 13:50:48,349 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 13:50:49,735 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1757mS.
+2023-04-24 13:50:49,736 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-04-24 13:50:49,740 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:51:56,698 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,658 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,690 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,710 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,723 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,739 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,752 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,822 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,857 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:51:59,877 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:00,228 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:00,247 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:01,311 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:01,319 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:01,420 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 13:52:02,292 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:04,392 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 355782952 Bytes (704643072)
+2023-04-24 13:52:05,863 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 390908200 Bytes (704643072)
+2023-04-24 13:52:06,213 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 260591144 Bytes (704643072)
+2023-04-24 13:52:06,689 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 13:52:06,690 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 13:52:06,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 13:52:06,691 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 13:52:06,692 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 13:52:06,693 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 13:52:06,701 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:52:06,955 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 13:52:07,054 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 13:52:07,129 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 13:52:07,194 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 13:52:07,518 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 13:52:07,586 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 13:52:07,590 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 13:52:07,661 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 13:52:07,670 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 13:52:07,774 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 13:52:07,776 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 13:52:07,832 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 13:52:07,838 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 13:52:07,901 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 13:52:08,020 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 13:52:08,087 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 13:52:08,090 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 13:52:08,180 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 13:52:08,887 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 265mS.
+2023-04-24 13:52:08,889 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 13:52:09,349 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 13:52:10,737 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1848mS.
+2023-04-24 13:52:10,738 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:52:10,740 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 13:59:17,163 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:59:17,176 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 13:59:17,323 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:04:45,034 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 14:04:46,121 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 14:04:46,131 [WARN] IP:2113 - MSIAutoCalibration not found: check if there is a RefParameter without a condition.
+2023-04-24 14:07:16,961 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,518x349,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:07:31,187 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 332168720 Bytes (704643072)
+2023-04-24 14:07:32,569 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 368342976 Bytes (704643072)
+2023-04-24 14:07:32,916 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 404520896 Bytes (704643072)
+2023-04-24 14:07:33,250 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:07:33,251 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-04-24 14:07:33,252 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:07:33,252 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:07:33,545 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:07:33,672 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:07:33,749 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:07:33,832 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:07:34,242 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:07:34,263 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:07:34,650 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:07:34,654 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:07:34,717 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:07:34,727 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:07:34,841 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:07:34,846 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:07:34,903 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:07:34,910 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:07:34,970 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:07:35,012 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:07:35,012 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:07:35,020 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:07:35,088 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:07:35,090 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:07:35,178 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:07:36,076 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 465mS.
+2023-04-24 14:07:36,078 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:07:36,586 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:07:37,924 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1846mS.
+2023-04-24 14:07:37,926 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:07:37,927 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:10:55,586 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:11:20,919 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:15:20,321 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:15:28,104 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:15:33,000 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 432111912 Bytes (704643072)
+2023-04-24 14:15:34,199 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 468812072 Bytes (704643072)
+2023-04-24 14:15:34,542 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 503937320 Bytes (704643072)
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:15:34,867 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:15:34,868 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:15:35,071 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:15:35,133 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:15:35,184 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:15:35,242 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:15:35,631 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:15:35,645 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:15:35,736 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:15:35,741 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:15:35,817 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:15:35,828 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:15:35,918 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:15:35,922 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:15:35,976 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:15:35,982 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:15:36,045 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:15:36,084 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:15:36,084 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:15:36,088 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:15:36,148 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:15:36,152 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:15:36,250 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:15:37,244 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 465mS.
+2023-04-24 14:15:37,247 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:15:37,545 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:15:39,086 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1839mS.
+2023-04-24 14:15:39,087 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:15:39,088 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:18:10,083 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:11,158 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:14,362 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:21,415 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:24,323 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:28,808 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:18:35,752 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 486839728 Bytes (724566016)
+2023-04-24 14:18:37,379 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 523539888 Bytes (724566016)
+2023-04-24 14:18:37,715 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 601660848 Bytes (724566016)
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:18:38,093 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:18:38,094 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:18:38,094 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:18:38,303 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:18:38,371 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:18:38,421 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:18:38,480 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:18:38,868 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:18:38,879 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:18:38,945 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:18:38,947 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:18:39,009 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:18:39,018 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:18:39,106 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:18:39,109 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:18:39,168 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:18:39,175 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:18:39,238 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:18:39,280 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:18:39,280 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:18:39,286 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:18:39,346 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:18:39,348 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:18:39,440 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:18:40,292 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 257mS.
+2023-04-24 14:18:40,294 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:18:40,617 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:18:42,025 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1731mS.
+2023-04-24 14:18:42,026 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:18:42,028 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:30:27,859 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:36:20,217 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 514527640 Bytes (766509056)
+2023-04-24 14:36:24,886 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 554895768 Bytes (766509056)
+2023-04-24 14:36:28,610 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 316032512 Bytes (766509056)
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:36:28,916 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:36:28,917 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:36:28,917 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:36:28,917 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:36:29,176 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:36:29,263 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:36:29,316 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:36:29,385 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:36:29,723 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:36:29,735 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:36:30,013 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:36:30,016 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:36:30,071 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:36:30,079 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:36:30,183 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:36:30,185 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:36:30,245 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:36:30,251 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:36:30,314 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:36:30,353 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:36:30,353 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:36:30,359 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:36:30,428 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:36:30,432 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:36:30,522 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:36:31,484 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 444mS.
+2023-04-24 14:36:31,486 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:36:31,771 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:36:33,273 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1787mS.
+2023-04-24 14:36:33,274 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:36:33,275 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:51:03,023 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:51:03,239 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2023-04-24 14:51:03,240 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Component.java:2101)
+2023-04-24 14:51:03,241 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Component.java:2075)
+2023-04-24 14:51:03,241 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(JPopupMenu.java:940)
+2023-04-24 14:51:03,241 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(BasicComboPopup.java:235)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(BasicComboPopup.java:1218)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(BasicComboPopup.java:897)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+2023-04-24 14:51:03,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2023-04-24 14:51:03,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(BasicTableUI.java:967)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1129)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1057)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+2023-04-24 14:51:03,244 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2023-04-24 14:51:03,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2023-04-24 14:51:03,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-04-24 14:51:03,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-04-24 14:51:03,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-04-24 14:51:03,249 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-04-24 14:51:03,249 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-04-24 14:51:07,632 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x127,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:51:08,838 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-24 14:51:14,242 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 337510608 Bytes (766509056)
+2023-04-24 14:51:16,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 373684944 Bytes (766509056)
+2023-04-24 14:51:16,544 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409862864 Bytes (766509056)
+2023-04-24 14:51:16,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: LPUART
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-04-24 14:51:16,932 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-04-24 14:51:16,933 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-04-24 14:51:16,934 [INFO] CodeGenerator:793 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.8.0.202302231600//db/
+2023-04-24 14:51:17,256 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp_save
+2023-04-24 14:51:17,361 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/license.tmp
+2023-04-24 14:51:17,416 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp_save
+2023-04-24 14:51:17,491 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/gpio.tmp
+2023-04-24 14:51:17,884 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-04-24 14:51:17,896 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c_save
+2023-04-24 14:51:18,162 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_it.c
+2023-04-24 14:51:18,166 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h_save
+2023-04-24 14:51:18,238 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_it.h
+2023-04-24 14:51:18,245 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c_save
+2023-04-24 14:51:18,383 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/stm32l4xx_hal_msp.c
+2023-04-24 14:51:18,387 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp_save
+2023-04-24 14:51:18,462 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/MXTmpFiles/system.tmp
+2023-04-24 14:51:18,468 [INFO] CodeEngine:311 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h_save
+2023-04-24 14:51:18,536 [INFO] CodeEngine:335 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/stm32l4xx_hal_conf.h
+2023-04-24 14:51:18,577 [WARN] IPConfigManager:3431 - IP not found : USB_OTG
+2023-04-24 14:51:18,577 [WARN] CodeGenerator:3754 - IP not found : null
+2023-04-24 14:51:18,581 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h_save
+2023-04-24 14:51:18,655 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Inc/main.h
+2023-04-24 14:51:18,658 [INFO] CodeEngine:255 - oldGeneratedFile, /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c_save
+2023-04-24 14:51:18,748 [INFO] CodeEngine:279 - Generated code: /Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/Core/Src/main.c
+2023-04-24 14:51:19,827 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 448mS.
+2023-04-24 14:51:19,830 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-04-24 14:51:20,140 [INFO] ConfigFileManager:1483 - The Die is : DIE461
+2023-04-24 14:51:21,954 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2124mS.
+2023-04-24 14:51:21,955 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-04-24 14:51:21,957 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.

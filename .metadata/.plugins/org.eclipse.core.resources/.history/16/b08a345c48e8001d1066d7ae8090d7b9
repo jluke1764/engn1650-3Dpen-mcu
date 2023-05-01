@@ -21,7 +21,11 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
 #include <stdio.h>
+#include <stdarg.h>
+#include "bno055_stm32.h"
+
 
 /* USER CODE END Includes */
 
@@ -41,7 +45,9 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-UART_HandleTypeDef huart2;
+I2C_HandleTypeDef hi2c1;
+
+UART_HandleTypeDef hlpuart1;
 
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
@@ -53,14 +59,26 @@ PCD_HandleTypeDef hpcd_USB_OTG_FS;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USB_OTG_FS_PCD_Init(void);
-static void MX_USART2_UART_Init(void);
+static void MX_LPUART1_UART_Init(void);
+static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#define RECBUFN 1024
+static uint8_t recbuf[RECBUFN];
+static uint32_t recbufr = 0, recbufw = 0;
+
+
+   //Support code (copy&paste):
+
+
+
+
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint8_t data[200];
 
 /* USER CODE END 0 */
 
@@ -72,7 +90,8 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 	uint8_t MSG[7] = {'h', 'e', 'l', 'l', 'o', '\r', '\n'};
-	  //uint8_t X = 0;
+	uint8_t buffer[35] = {'\0'};
+	  uint8_t X = 0;
 
   /* USER CODE END 1 */
 
@@ -95,8 +114,18 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USB_OTG_FS_PCD_Init();
-  MX_USART2_UART_Init();
+  MX_LPUART1_UART_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
+  bno055_assignI2C(&hi2c1);
+	bno055_setup();
+	bno055_setOperationModeNDOF();
+  for (int i=0; i<200; i++)
+   {
+     data[i] = 'i';
+   }
+
+
 
   /* USER CODE END 2 */
 
@@ -109,13 +138,29 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_TogglePin (GPIOB, LD2_Blue_Pin);
-	  HAL_Delay (100);
-	  printf("HELLO\r\n");
-	  //sprintf(MSG, "Hello! X = %d\r\n", X);
-	  HAL_Delay(1000);
-	   HAL_UART_Transmit(&huart2, MSG, sizeof(MSG), 100);
-	   HAL_Delay(1000);
+	  //HAL_Delay (100);
+	  //printf("HELLO\r\n");
+
+	  //sprintf(buffer, "Hello! X = %d\r\n", X);
+	  //HAL_Delay(100);
+	   //HAL_UART_Transmit(&huart2, buffer, sizeof(buffer), 1000);
 	   //X++;
+	   //HAL_UART_Transmit(&hlpuart1, data, sizeof (data), 1000);
+	  /*
+	  int i = mygetch();
+	  if (i >= 0)
+	  {
+		  if (i == 'a')
+			  myprintf("Hello\n");
+		  else
+			  myprintf("you typed '%c'\n",i);
+	  }*/
+
+	  bno055_vector_t v = bno055_getVectorEuler();
+	  myprintf("Heading: %.2f Roll: %.2f Pitch: %.2f\r\n", v.x, v.y, v.z);
+	  v = bno055_getVectorQuaternion();
+	  myprintf("W: %.2f X: %.2f Y: %.2f Z: %.2f\r\n", v.w, v.x, v.y, v.z);
+	  HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
@@ -181,37 +226,87 @@ void SystemClock_Config(void)
 }
 
 /**
-  * @brief USART2 Initialization Function
+  * @brief I2C1 Initialization Function
   * @param None
   * @retval None
   */
-static void MX_USART2_UART_Init(void)
+static void MX_I2C1_Init(void)
 {
 
-  /* USER CODE BEGIN USART2_Init 0 */
+  /* USER CODE BEGIN I2C1_Init 0 */
 
-  /* USER CODE END USART2_Init 0 */
+  /* USER CODE END I2C1_Init 0 */
 
-  /* USER CODE BEGIN USART2_Init 1 */
+  /* USER CODE BEGIN I2C1_Init 1 */
 
-  /* USER CODE END USART2_Init 1 */
-  huart2.Instance = USART2;
-  huart2.Init.BaudRate = 115200;
-  huart2.Init.WordLength = UART_WORDLENGTH_7B;
-  huart2.Init.StopBits = UART_STOPBITS_1;
-  huart2.Init.Parity = UART_PARITY_NONE;
-  huart2.Init.Mode = UART_MODE_TX_RX;
-  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
-  huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&huart2) != HAL_OK)
+  /* USER CODE END I2C1_Init 1 */
+  hi2c1.Instance = I2C1;
+  hi2c1.Init.Timing = 0x00303D5B;
+  hi2c1.Init.OwnAddress1 = 0;
+  hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c1.Init.OwnAddress2 = 0;
+  hi2c1.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
+  hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+  {
+	  myprintf("here 0");
+    Error_Handler();
+  }
+
+  /** Configure Analogue filter
+  */
+  if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
+  {
+	 myprintf("here 1");
+    Error_Handler();
+  }
+
+  /** Configure Digital filter
+  */
+  if (HAL_I2CEx_ConfigDigitalFilter(&hi2c1, 0) != HAL_OK)
+  {
+	  myprintf("here 2");
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C1_Init 2 */
+
+  /* USER CODE END I2C1_Init 2 */
+
+}
+
+/**
+  * @brief LPUART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_LPUART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN LPUART1_Init 0 */
+
+  /* USER CODE END LPUART1_Init 0 */
+
+  /* USER CODE BEGIN LPUART1_Init 1 */
+
+  /* USER CODE END LPUART1_Init 1 */
+  hlpuart1.Instance = LPUART1;
+  hlpuart1.Init.BaudRate = 57600;
+  hlpuart1.Init.WordLength = UART_WORDLENGTH_8B;
+  hlpuart1.Init.StopBits = UART_STOPBITS_1;
+  hlpuart1.Init.Parity = UART_PARITY_NONE;
+  hlpuart1.Init.Mode = UART_MODE_TX_RX;
+  hlpuart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  hlpuart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  hlpuart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&hlpuart1) != HAL_OK)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN USART2_Init 2 */
+  /* USER CODE BEGIN LPUART1_Init 2 */
 
-  /* USER CODE END USART2_Init 2 */
+  /* USER CODE END LPUART1_Init 2 */
 
 }
 
@@ -234,12 +329,12 @@ static void MX_USB_OTG_FS_PCD_Init(void)
   hpcd_USB_OTG_FS.Init.dev_endpoints = 6;
   hpcd_USB_OTG_FS.Init.speed = PCD_SPEED_FULL;
   hpcd_USB_OTG_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
-  hpcd_USB_OTG_FS.Init.Sof_enable = ENABLE;
+  hpcd_USB_OTG_FS.Init.Sof_enable = DISABLE;
   hpcd_USB_OTG_FS.Init.low_power_enable = DISABLE;
   hpcd_USB_OTG_FS.Init.lpm_enable = DISABLE;
-  hpcd_USB_OTG_FS.Init.battery_charging_enable = ENABLE;
+  hpcd_USB_OTG_FS.Init.battery_charging_enable = DISABLE;
   hpcd_USB_OTG_FS.Init.use_dedicated_ep1 = DISABLE;
-  hpcd_USB_OTG_FS.Init.vbus_sensing_enable = ENABLE;
+  hpcd_USB_OTG_FS.Init.vbus_sensing_enable = DISABLE;
   if (HAL_PCD_Init(&hpcd_USB_OTG_FS) != HAL_OK)
   {
     Error_Handler();
@@ -264,10 +359,10 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
-  __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOG_CLK_ENABLE();
   HAL_PWREx_EnableVddIO2();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, LD3_Pin|LD2_Blue_Pin, GPIO_PIN_RESET);
@@ -301,14 +396,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(USB_PowerSwitchOn_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PG7 PG8 */
-  GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_8;
-  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-  GPIO_InitStruct.Alternate = GPIO_AF8_LPUART1;
-  HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
-
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
 }
@@ -318,10 +405,58 @@ PUTCHAR_PROTOTYPE
 {
   /* Place your implementation of fputc here */
   /* e.g. write a character to the USART1 and Loop until the end of transmission */
-  HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xFFFF);
+  HAL_UART_Transmit(&hlpuart1, (uint8_t *)&ch, 1, 0xFFFF);
 
   return ch;
 }
+
+void mywrite (unsigned char *st, int nby)
+{
+   if (nby) HAL_UART_Transmit(&hlpuart1,st,nby,10);
+}
+void myprintf (const char *fmt, ...)
+{
+   va_list arglist;
+   int nby;
+   unsigned char st[256];
+
+   if (!fmt) return;
+   va_start(arglist,fmt);
+   nby = vsnprintf((char *)st,sizeof(st),fmt,arglist);
+   va_end(arglist);
+   if (nby < 0) { nby = sizeof(st)-1; } //print truncated string in case too long
+   if (nby) HAL_UART_Transmit(&hlpuart1,st,nby,10);
+}
+/*
+int mygetch (void)
+{
+   uint8_t ch = 0;
+   if (HAL_UART_Receive(&hlpuart1, (uint8_t *)&ch, 1, 0) == HAL_OK) return ch;
+   return -1; //HAL_TIMEOUT
+}
+*/
+
+void HAL_UART_RxCpltCallback (UART_HandleTypeDef *huart)
+{
+	recbufw++;
+	HAL_UART_Receive_IT(&hlpuart1,&recbuf[recbufw&(RECBUFN-1)],1);
+}
+
+void uart_init (void)
+{
+	HAL_UART_Receive_IT(&hlpuart1,&recbuf[recbufw&(RECBUFN-1)] ,1);
+}
+//start recv ints
+
+int mygetch (void)
+{
+   //if (!(USART3->CR3&1)) //This hack stops UART recv stream from freezing randomly from overruns
+   //   { HAL_UART_Receive_IT(&hlp,&recbuf[recbufw&(RECBUFN-1)],1); }
+   if (recbufr == recbufw) return(-1);
+   recbufr++; return(recbuf[(recbufr-1)&(RECBUFN-1)]);
+}
+
+
 
 /* USER CODE END 4 */
 

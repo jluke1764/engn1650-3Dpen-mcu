@@ -1,50 +1,38 @@
-15:13:04 **** Incremental Build of configuration Debug for project Pen ****
+14:30:13 **** Incremental Build of configuration Debug for project Pen ****
 make -j7 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L496xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:113:3: warning: implicit declaration of function 'uart_init' [-Wimplicit-function-declaration]
-  113 |   uart_init();
-      |   ^~~~~~~~~
-../Core/Src/main.c:141:12: warning: implicit declaration of function 'mygetch' [-Wimplicit-function-declaration]
-  141 |    int i = mygetch();
-      |            ^~~~~~~
-../Core/Src/main.c:145:6: warning: implicit declaration of function 'myprintf'; did you mean 'vdprintf'? [-Wimplicit-function-declaration]
-  145 |      myprintf("Hello\n");
-      |      ^~~~~~~~
-      |      vdprintf
-../Core/Src/main.c:89:12: warning: unused variable 'X' [-Wunused-variable]
-   89 |    uint8_t X = 0;
+../Core/Src/main.c:160:4: warning: implicit declaration of function 'myprintf'; did you mean 'vdprintf'? [-Wimplicit-function-declaration]
+  160 |    myprintf("Heading: %d Roll: %d Pitch: %d\r\n", (int)(v.x * 100), (int)(v.y * 100), (int)(v.z * 100));
+      |    ^~~~~~~~
+      |    vdprintf
+../Core/Src/main.c:94:12: warning: unused variable 'X' [-Wunused-variable]
+   94 |    uint8_t X = 0;
       |            ^
-../Core/Src/main.c:88:10: warning: unused variable 'buffer' [-Wunused-variable]
-   88 |  uint8_t buffer[35] = {'\0'};
+../Core/Src/main.c:93:10: warning: unused variable 'buffer' [-Wunused-variable]
+   93 |  uint8_t buffer[35] = {'\0'};
       |          ^~~~~~
-../Core/Src/main.c:87:10: warning: unused variable 'MSG' [-Wunused-variable]
-   87 |  uint8_t MSG[7] = {'h', 'e', 'l', 'l', 'o', '\r', '\n'};
+../Core/Src/main.c:92:10: warning: unused variable 'MSG' [-Wunused-variable]
+   92 |  uint8_t MSG[7] = {'h', 'e', 'l', 'l', 'o', '\r', '\n'};
       |          ^~~
 ../Core/Src/main.c: At top level:
-../Core/Src/main.c:351:6: warning: conflicting types for 'myprintf'
-  351 | void myprintf (const char *fmt, ...)
+../Core/Src/main.c:414:6: warning: conflicting types for 'myprintf'
+  414 | void myprintf (const char *fmt, ...)
       |      ^~~~~~~~
-../Core/Src/main.c:145:6: note: previous implicit declaration of 'myprintf' was here
-  145 |      myprintf("Hello\n");
-      |      ^~~~~~~~
-../Core/Src/main.c:379:6: warning: conflicting types for 'uart_init'
-  379 | void uart_init (void)
-      |      ^~~~~~~~~
-../Core/Src/main.c:113:3: note: previous implicit declaration of 'uart_init' was here
-  113 |   uart_init();
-      |   ^~~~~~~~~
+../Core/Src/main.c:160:4: note: previous implicit declaration of 'myprintf' was here
+  160 |    myprintf("Heading: %d Roll: %d Pitch: %d\r\n", (int)(v.x * 100), (int)(v.y * 100), (int)(v.z * 100));
+      |    ^~~~~~~~
 arm-none-eabi-gcc -o "Pen.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/naonao/Desktop/ENGN1650/engn1650-3Dpen-mcu/Pen/STM32L496ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Pen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Pen.elf
  
 arm-none-eabi-size   Pen.elf 
 arm-none-eabi-objdump -h -S  Pen.elf  > "Pen.list"
    text	   data	    bss	    dec	    hex	filename
-  21964	    120	   4248	  26332	   66dc	Pen.elf
+  31540	    132	   3300	  34972	   889c	Pen.elf
 Finished building: default.size.stdout
  
 Finished building: Pen.list
  
 
-15:13:05 Build Finished. 0 errors, 8 warnings. (took 1s.231ms)
+14:30:14 Build Finished. 0 errors, 5 warnings. (took 932ms)
 
