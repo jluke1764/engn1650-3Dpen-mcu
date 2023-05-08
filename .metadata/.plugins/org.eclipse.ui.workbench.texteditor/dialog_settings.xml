@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="UART_Init"/>
-		<item key="wrap" value="true"/>
+		<item key="selection" value="BNO055_CHIP_ID"/>
+		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="BNO055_CHIP_ID"/>
+			<item value="bno055_assignI2C"/>
+			<item value="assignI2C"/>
+			<item value="assign"/>
+			<item value="BNO055_ID"/>
+			<item value="readData"/>
+			<item value="Master"/>
+			<item value="master"/>
 			<item value="uart_init"/>
 		</list>
 		<list key="replacehistory">

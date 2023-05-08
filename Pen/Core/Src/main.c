@@ -137,7 +137,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_GPIO_TogglePin (GPIOB, LD2_Blue_Pin);
+	  //HAL_GPIO_TogglePin (GPIOB, LD2_Blue_Pin);
 	  //HAL_Delay (100);
 	  //printf("HELLO\r\n");
 
@@ -156,10 +156,11 @@ int main(void)
 			  myprintf("you typed '%c'\n",i);
 	  }*/
 
-	  bno055_vector_t v = bno055_getVectorEuler();
-	  myprintf("Heading: %d Roll: %d Pitch: %d\r\n", (int)(v.x * 100), (int)(v.y * 100), (int)(v.z * 100));
-	  v = bno055_getVectorQuaternion();
-	  myprintf("W: %d X: %d Y: %d Z: %d\r\n", (int)(v.w * 100), (int)(v.x * 100), (int)(v.y * 100), (int)(v.z * 100));
+	  //bno055_vector_t v = bno055_getVectorEuler();
+	  myprintf("hello world!");
+	  //myprintf("Heading: %d Roll: %d Pitch: %d\r\n", (int)(v.x * 100), (int)(v.y * 100), (int)(v.z * 100));
+	  //v = bno055_getVectorQuaternion();
+	  //myprintf("W: %d X: %d Y: %d Z: %d\r\n", (int)(v.w * 100), (int)(v.x * 100), (int)(v.y * 100), (int)(v.z * 100));
 	  HAL_Delay(100);
   }
   /* USER CODE END 3 */
